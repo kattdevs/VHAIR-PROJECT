@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>V Hair Vault</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="site-header border-bottom py-3">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="brand d-flex align-items-center text-decoration-none">
+          <img src="vhair-logo.png" alt="V Hair Vault logo" width="120" class="img-fluid" />
+        </a>
+
+        <nav class="site-nav d-none d-md-block">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link px-3" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#about">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#contact">CONTACT US</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#products">SHOP</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions text-end">
+          <a href="#layby" class="btn btn-outline-primary btn-layby" role="button" aria-label="Go to Lay-by form">LAY-BY TODAY</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About / Hero -->
+      <section id="about" class="container my-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <h1 class="display-4 fw-bold">OUR STORY</h1>
+            <p class="lead">
+              At the heart of our brand is a deep love for beauty, confidence, and self-expression...
+            </p>
+            <div class="mt-4">
+              <button type="button" class="btn btn-primary btn-lg fw-bold">Learn More</button>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <img src="vhair-image.jpg" alt="models wearing wigs" class="img-fluid rounded shadow" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="products-section bg-light py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="product-card text-center p-4 h-100">
+                <h2 class="h4">Headband Wigs</h2>
+                <div class="product-media mx-auto mt-3">
+                  <img src="DD-BrazilianHair.jpg" alt="Headband wig" class="img-fluid rounded-top product-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="product-card text-center p-4 h-100">
+                <h2 class="h4">Textured Wigs</h2>
+                <div class="product-media mx-auto mt-3">
+                  <img src="JC-HairWig.jpg" alt="Textured wig" class="img-fluid rounded-top product-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="product-card text-center p-4 h-100">
+                <h2 class="h4">Human-hair Wigs</h2>
+                <div class="product-media mx-auto mt-3">
+                  <img src="WW-Humanhair.jpg" alt="Human hair wig" class="img-fluid rounded-top product-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lay-by form -->
+      <section id="layby" class="container my-5">
+        <div class="row justify-content-end">
+          <aside class="col-12 col-md-6 col-lg-4">
+            <div class="layby-card position-relative rounded shadow-sm p-3">
+              <form class="bg-white p-4 rounded">
+                <h2 class="h5 text-center mb-3 fw-normal">Lay-by Today</h2>
+
+                <div class="mb-3 form-floating">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                  <label for="email">Email address</label>
+                </div>
+
+                <div class="mb-3 form-floating">
+                  <input type="text" class="form-control" id="product" name="product" placeholder="Product name" required>
+                  <label for="product">Product name</label>
+                </div>
+
+                <div class="mb-3 form-floating">
+                  <input type="date" class="form-control" id="startDate" name="startDate" placeholder="Start date" required>
+                  <label for="startDate">Start date</label>
+                </div>
+
+                <div class="mb-3 form-floating">
+                  <input type="number" class="form-control" id="duration" name="duration" placeholder="Duration (weeks)" min="1" required>
+                  <label for="duration">Duration (weeks)</label>
+                </div>
+
+                <div class="mb-3 form-check text-start">
+                  <input class="form-check-input" type="checkbox" value="" id="remember">
+                  <label class="form-check-label" for="remember">Remember me</label>
+                </div>
+
+                <button class="btn btn-primary w-100" type="submit">Start Lay-by</button>
+
+                <p class="mt-3 mb-0 small text-center text-muted">© 2017–2025</p>
+              </form>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="site-footer border-top py-5">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-12 col-md-4 d-flex align-items-center mb-3">
+            <a href="index.html" class="d-flex align-items-center text-decoration-none me-2" aria-label="V Hair Vault">
+            </a>
+            <p class="mb-0 text-muted">© 2025 V Hair Vault</p>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3"></div>
+
+          <div class="col-12 col-md-4 mb-3 text-md-end">
+            <h5 class="mb-3">Get In Touch</h5>
+            <ul class="nav flex-column align-items-md-end">
+              <li class="nav-item mb-2">
+                <a href="https://www.instagram.com/vhair_vault" target="_blank" rel="noopener noreferrer" class="nav-link p-0 text-muted" aria-label="V Hair Vault on Instagram">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://www.tiktok.com/@vhairvault" target="_blank" rel="noopener noreferrer" class="nav-link p-0 text-muted" aria-label="V Hair Vault on TikTok">TikTok</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="mailto:vhairvault@gmail.com" class="nav-link p-0 text-muted" aria-label="Email V Hair Vault">Email</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="faq.html" class="nav-link p-0 text-muted" aria-label="V Hair Vault FAQs">FAQs</a>
+              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Johannesburg South Africa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
