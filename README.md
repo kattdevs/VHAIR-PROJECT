@@ -81,7 +81,6 @@ Then navigate to `http://localhost:8000`
 - Responsive grid layout
 
 ### 4. **Lay-by Form Section**
-- Overlay background with blur effect
 - Email input
 - Product name input
 - Start date picker
@@ -96,57 +95,6 @@ Then navigate to `http://localhost:8000`
 - Location information
 - Copyright information
 
-## 🎯 Key CSS Classes
-
-| Class | Purpose |
-|-------|---------|
-| `.site-header` | Main navigation bar styling |
-| `.btn-layby` | Lay-by button styling |
-| `.product-card` | Product display cards |
-| `.product-img` | Product images |
-| `.layby-card` | Lay-by form container |
-| `.form-control` | Form input styling |
-| `.site-footer` | Footer section styling |
-
-## 📱 Responsive Breakpoints
-
-- **Tablets** (max-width: 992px): Center text, adjust product image heights
-- **Large Mobile** (max-width: 768px): Stack navigation, reduce image heights
-- **Phones** (max-width: 576px): Reduce product image heights, adjust form padding
-- **Extra Small** (max-width: 400px): Reduce font size and image heights
-
-## 🎨 CSS Variables
-
-```css
---black: #000
---deep-black: #0d0d0d
---gold: #c9a856
---white: #ffffff
---soft-grey: #d1d1d1
-```
-
-## 🔗 External Dependencies
-
-- **Bootstrap 5.3.8**: CSS framework for layout and components
-- **Poppins Font**: Via system font fallback (ensure installed or use Google Fonts)
-
-## 📝 Future Enhancements
-
-- [ ] Add JavaScript for form validation and submission
-- [ ] Implement product filtering
-- [ ] Add shopping cart functionality
-- [ ] Create individual product detail pages
-- [ ] Add image lightbox gallery
-- [ ] Integrate payment gateway for lay-by system
-- [ ] Add email notification system
-- [ ] Create admin dashboard for product management
-
-## 🐛 Known Issues
-
-- Lay-by form background image path needs to be verified: `vhair-image.jpg`
-- Form currently has no backend validation or submission handler
-- Missing logo image placeholder
-
 ## 📧 Contact & Social
 
 - **Email**: vhairvault@gmail.com
@@ -157,7 +105,3 @@ Then navigate to `http://localhost:8000`
 ## 📄 License
 
 © 2025 V Hair Vault. All rights reserved.
-
-## ✨ Credits
-
-Designed and developed for V Hair Vault premium hair products.
